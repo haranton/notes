@@ -1,10 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>My Vue App</title>
+    <link rel="stylesheet" href="style.css">
+  <title>My Notes App</title>
 </head>
 <body>
+    <h1>Welcome!!</h1>
+    <table id="table">
+        <thead>
+            <tr>
+                <th> Id</th>
+                <th> Date  </th>
+                <th> Name </th>
+                <th> Note </th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+
+        </tbody>
+    </table>
+    <section class="addnote-section">
+        <button id="new-note" class="button"> Новая заметка </button>
+        <textarea id="note" placeholder="Напишитеф что-нибудь" ></textarea>
+    </section>
   <div id="app"></div>
   <script type="module" src="/src/main.js"></script>
 </body>
